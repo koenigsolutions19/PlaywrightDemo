@@ -8,7 +8,4 @@ await page.waitForTimeout(3000);
 var editBox = page.getByPlaceholder('Enter your full name')
 await editBox.fill('Satish')
 await page.waitForTimeout(3000);
-
-expect(page).
-
 });
